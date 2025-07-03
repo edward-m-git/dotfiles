@@ -1,0 +1,41 @@
+sudo dnf install terminator
+sudo dnf install git
+sudo dnf install python3-pip
+sudo dnf install zsh
+sudo dnf install mozilla-fira-mono-fonts
+sudo dnf copr enable atim/starship
+sudo dnf install starship
+dnf install zsh-syntax-highlighting
+dnf install zsh-autosuggestions
+#launch zsh to configure it
+chsh -s $(which zsh)
+#start terminator
+
+#nano .zshrc add:
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+source ~/.zsh_aliases
+eval "$(starship init zsh)"
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#.zsh_aliases:
+alais ll='ls -lisah'
+
+VS Code:
+  install VS code via website
+	"editor.acceptSuggestionOnEnter": "off"
+	"editor.inlineSuggest.enabled": false
+	"editor.suggestOnTriggerCharacters": false
+	"editor.quickSuggestions": {
+  		"other": "off"
+	}
+	"editor.parameterHints.enabled": false
+	Exit minimap
+	secondary side bar
+	open outline > move to secondary side bar
+ 
+/etc/fstab
+	.host:/ /mnt/hgfs fuse.vmhgfs-fuse defaults,allow_other 0 0
+
+isntall pwndbg via github
