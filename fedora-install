@@ -39,3 +39,5 @@ VS Code:
 	.host:/ /mnt/hgfs fuse.vmhgfs-fuse defaults,allow_other 0 0
 
 isntall pwndbg via github
+
+firefox > remember tabs
