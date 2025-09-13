@@ -1,3 +1,6 @@
+right click panels > panel properties > remove panel 2
+unlock panel 1 > move to bottom
+
 sudo dnf install terminator
 sudo dnf install git
 sudo dnf install python3-pip
