@@ -1,5 +1,6 @@
 right click panels > panel properties > remove panel 2
 unlock panel 1 > move to bottom
+increase panel size to 32
 
 sudo dnf install terminator
 sudo dnf install git
@@ -8,8 +9,8 @@ sudo dnf install zsh
 sudo dnf install mozilla-fira-mono-fonts
 sudo dnf copr enable atim/starship
 sudo dnf install starship
-dnf install zsh-syntax-highlighting
-dnf install zsh-autosuggestions
+sudo dnf install zsh-syntax-highlighting
+sudo dnf install zsh-autosuggestions
 #launch zsh to configure it
 chsh -s $(which zsh)
 #start terminator
@@ -23,7 +24,7 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #.zsh_aliases:
-alais ll='ls -lisah'
+alias ll='ls -lisah'
 
 VS Code:
   install VS code via website
@@ -37,6 +38,7 @@ VS Code:
 	Exit minimap
 	secondary side bar
 	open outline > move to secondary side bar
+command pallette > hide ai
  
 /etc/fstab
 	.host:/ /mnt/hgfs fuse.vmhgfs-fuse defaults,allow_other 0 0
@@ -44,3 +46,4 @@ VS Code:
 isntall pwndbg via github
 
 firefox > remember tabs
+	> install adblock
