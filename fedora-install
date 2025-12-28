@@ -24,7 +24,8 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #.zsh_aliases:
-alias ll='ls -lisah'
+alias la='ls -lisah'
+alias ll='ls -lish'
 
 VS Code:
   install VS code via website
